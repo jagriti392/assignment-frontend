@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KreditBee - Easy Personal Loans</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px 20px;
+            background-color: #fff;
+        }
+
+        .hero-content {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        .hero-content h2 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        .hero-content p {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #555;
+        }
+
+        .hero img {
+            flex: 1;
+            max-width: 500px;
+            height: auto;
+        }
+
+        /* Features Section */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 20px;
+        }
+
+        .feature {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            margin: 0 10px;
+            text-align: center;
+        }
+
+        .feature h3 {
+            font-size: 24px;
+            color: #007bff;
+        }
+
+        .feature p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* Call-to-Action Section */
+        .cta {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .cta h2 {
+            font-size: 28px;
+        }
+
+        .cta button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #fff;
+            color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .cta button:hover {
+            background-color: #0056b3;
+            color: #fff;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>KreditBee - Instant Personal Loans</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Quick Loans for All Your Needs</h2>
+            <p>Get instant personal loans up to ₹2 Lakhs with KreditBee. Fast processing, easy approvals, and quick disbursals. No lengthy paperwork, just simple and seamless online transactions.</p>
+            <p>Get your loan approved in minutes and fulfill your financial needs effortlessly.</p>
+        </div>
+        <img src="data:image/jpeg;base64,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" alt="Loan Process">
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <h3>Instant Loan Approval</h3>
+            <p>Get your loan approved within minutes of applying. Fast and secure processing.</p>
+        </div>
+        <div class="feature">
+            <h3>Flexible Repayments</h3>
+            <p>Choose flexible repayment options that fit your needs. Easy EMIs available.</p>
+        </div>
+        <div class="feature">
+            <h3>Minimal Documentation</h3>
+            <p>No lengthy paperwork required. Simply upload your documents online.</p>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta">
+        <h2>Apply for an Instant Loan Today</h2>
+        <button>Get Started</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 KreditBee. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
